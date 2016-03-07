@@ -1,4 +1,4 @@
-hello_world.hello_page:
+hello_world_settings:
   path:  '/hello'
   defaults:
     _controller:  '\Drupal\hello_world\Controller\HelloWorldController::sayHello'
