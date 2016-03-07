@@ -1,0 +1,6 @@
+name:  Hello World
+type:  module
+description:  'Drupal 8 Module that says hello.'
+package:  Custom Modules
+version:  1.0
+core:  8.x
