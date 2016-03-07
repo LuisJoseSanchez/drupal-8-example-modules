@@ -1,0 +1,7 @@
+links_and_tables_settings:
+  path:  '/links/and/tables'
+  defaults:
+    _controller:  '\Drupal\links_and_tables\Controller\LinksAndTablesController::simplePage'
+    _title: 'Links and Tables'
+  requirements:
+    _permission: 'access content'

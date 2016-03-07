@@ -1,0 +1,6 @@
+name:  Links and tables
+type:  module
+description:  'Show some links and tables.'
+package:  Custom Modules
+version:  1.0
+core:  8.x
