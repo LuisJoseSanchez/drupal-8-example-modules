@@ -1,7 +1,7 @@
-links_and_tables_settings:
+page_css_settings:
   path:  '/pagecss'
   defaults:
-    _controller:  '\Drupal\links_and_tables\Controller\PagesCssController::simplePage'
+    _controller:  '\Drupal\page_css\Controller\PageCssController::simplePage'
     _title: 'Simple page with custom CSS'
   requirements:
     _permission: 'access content'

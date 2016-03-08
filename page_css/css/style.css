@@ -1,0 +1,9 @@
+.myBackground {
+  background-image: url("img/tux.jpeg");
+  opacity: 0.2;
+}
+ 
+.myTitle {
+  font-size: large;
+  color: green;
+}

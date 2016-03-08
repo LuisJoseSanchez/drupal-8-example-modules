@@ -1,11 +1,16 @@
 <?php
-namespace Drupal\pages_css\Controller;
+namespace Drupal\page_css\Controller;
 
 class PageCssController {
 
   public function simplePage() {
     
-    $page = '<h2>Motorbikes Web Resources</h2>
+    $page = '
+            <div class="myBackground">
+            
+            <img src="modules/custom/page_css/images/motocustom.jpg">
+            
+            <h2 class="myTitle">Motorbikes Web Resources</h2>
             <ul>
               <li><a href="#magazines">Magazines</a></li>
               <li><a href="#sales">Sales</a></li>
@@ -62,10 +67,15 @@ class PageCssController {
                 </tr>
               </table>
             </div>
+            </div>
             ';
     $content = [
       '#markup' => $page,
     ];
+    
+    $content['#attached']['library'][] = 'page_css/css/style';
+    
     return $content;
   }
+  
 }
