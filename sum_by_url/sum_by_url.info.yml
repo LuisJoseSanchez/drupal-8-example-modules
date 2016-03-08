@@ -1,0 +1,5 @@
+name: Sum by URL
+type: module
+description: 'Sum two numbers by the URL. For example sum/25/47'
+package: Custom Modules
+core: 8.x

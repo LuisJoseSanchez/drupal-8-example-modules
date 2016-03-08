@@ -1,0 +1,6 @@
+name:  My menu
+type:  module
+description:  'Add some menu links.'
+package:  Custom Modules
+version:  1.0
+core:  8.x

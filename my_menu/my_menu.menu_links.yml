@@ -1,0 +1,5 @@
+my_menu.my_menu:
+  title: My menu link
+  description: 'Link to sample page'
+  parent: system.admin_structure
+  route_name: hello_world_settings

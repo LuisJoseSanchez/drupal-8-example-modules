@@ -1,0 +1,14 @@
+sum_by_url_simple:
+  path: '/sum'
+  defaults:
+    _controller: '\Drupal\sum_by_url\Controller\SumByUrlController::simple'
+    _title: 'Without arguments'
+  requirements:
+    _permission: 'access content'
+
+sum_by_url_arguments:
+  path: '/sum/{x}/{y}'
+  defaults:
+    _controller: '\Drupal\sum_by_url\Controller\SumByUrlController::arguments'
+  requirements:
+    _permission: 'access content'
